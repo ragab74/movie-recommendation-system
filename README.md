@@ -32,3 +32,8 @@ Movie Recommendation System App! This simple web application provides movie reco
     - The frontend dynamically loads and displays the movie images fetched from IMDb alongside their titles and links.
 10. **User Interaction:**
     - The user can see the recommended movies along with their images and IMDb links
+   
+## Web App Home Page and Recommendtion Page
+![Image](input.png)
+
+![Image](recommendtion.png)
