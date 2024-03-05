@@ -12,7 +12,7 @@ def get_movie_recommendations(movie_name):
     recommendations = []
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
     
-    for i in range(4):
+    for i in range(1,4):
         url = f'https://www.imdb.com/list/ls068082370/?sort=user_rating,desc&st_dt=&mode=detail&page={i}'
         req = requests.get(url)
         html = req.text
